@@ -1,0 +1,56 @@
+/* footer.css */
+
+.footer {
+  border-top-width: 2px;
+  border-color: #dc2626;
+  padding-top: 1rem;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+}
+
+.footer-subtitle {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.footer-categories {
+  font-size: 0.75rem;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8b0000;
+  height: 120px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.phone-icon {
+  color: #fff; /* Customize color as needed */
+}
+
+.facebook-icon {
+  color: #fff; /* Customize color as needed */
+}
+
+.globe-icon {
+  color: #fff; /* Customize color as needed */
+}
+
+.contact-info {
+  color: #fff;
+}
