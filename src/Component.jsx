@@ -1,7 +1,6 @@
-// Component.js
 import React from "react";
-import Footer from "./Footer"; // Import the Footer component
-import "./Component.css"; // Import the CSS file
+import Footer from "./Footer";
+import "./Component.css";
 
 export default function Component() {
   return (
@@ -24,8 +23,9 @@ export default function Component() {
           </div>
           <div className="column">
             <h2 className="section-title">
-              C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
-              the 4th time.
+              C.R.I. PUMPS WINS THE{" "}
+              <strong>NATIONAL ENERGY CONSERVATION AWARD 2018</strong> for the
+              4th time.
             </h2>
             <ul>
               <li>
@@ -46,10 +46,11 @@ export default function Component() {
               src="./assets/2.png"
             />
             <p>
-              Government of India has awarded the "National Energy Conservation
-              Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I.
-              Group received the award from Smt. Sumitra Mahajan, Speaker of Lok
-              Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
+              Government of India has awarded the{" "}
+              <strong>"National Energy Conservation Award 2018"</strong>. Mr. G.
+              Selvaraj, Joint Managing Director of C.R.I. Group received the
+              award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj
+              Kumar Singh, Honorable Minister of State.
             </p>
           </div>
         </div>
@@ -60,11 +61,14 @@ export default function Component() {
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
           POWER FOR THE NATION.
         </p>
-
         <img alt="Valves" className="product-image" src="./assets/3.png" />
-        {/* Other product images */}
+        <p className="centered-text">
+          Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
+          Solar Systems - Motors
+        </p>
+        <div className="red-line"></div>
       </section>
-      <Footer /> {/* Render Footer component */}
+      <Footer />
     </div>
   );
 }

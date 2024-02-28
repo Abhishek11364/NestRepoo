@@ -1,31 +1,33 @@
-/* footer.css */
-
 .footer {
   border-top-width: 2px;
-  border-color: #dc2626;
+  border-color: #ff5959;
   padding-top: 1rem;
-}
-
-.footer-text {
-  font-size: 0.875rem;
 }
 
 .footer-subtitle {
   font-weight: 700;
   font-size: 0.875rem;
   margin-top: 0.5rem;
+  text-align: center;
 }
 
 .footer-categories {
-  font-size: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-categories .category-group {
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .footer-contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background-color: #8b0000;
+  background-color: #fb3737;
   height: 120px;
+  padding: 0 1rem;
 }
 
 .contact-item {
@@ -33,24 +35,57 @@
   align-items: center;
 }
 
-.icon {
+.icon-circle {
+  color: #fb3737;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.phone-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: auto;
+}
+
+.facebook-icon,
+.globe-icon {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.5rem;
 }
 
-.phone-icon {
-  color: #fff; /* Customize color as needed */
-}
-
-.facebook-icon {
-  color: #fff; /* Customize color as needed */
-}
-
+.phone-icon,
+.facebook-icon,
 .globe-icon {
-  color: #fff; /* Customize color as needed */
+  color: #fff;
 }
 
 .contact-info {
   color: #fff;
+}
+
+.vertical-line {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding-top: 0.5rem;
+  }
+
+  .footer-contact {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .contact-item {
+    margin-bottom: 1rem;
+  }
 }
