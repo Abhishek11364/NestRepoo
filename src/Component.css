@@ -61,63 +61,30 @@
 }
 
 .saving-text {
-  font-size: 1.125rem;
-}
-
-.product-images {
-  
+  font-size: 1rem;
 }
 
 .product-image {
-  height: 6rem;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 900px; /* Set maximum width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 300px; /* Set maximum height */
+  width: auto; /* Allow the width to adjust according to the height */
   margin-bottom: 1rem;
 }
 
-.footer {
-  border-top-width: 2px;
-  border-color: #dc2626;
-  padding-top: 1rem;
+.centered-text {
+  text-align: center;
+}
+/* component.css */
+
+.container {
+  background-color: #fff;
+  padding: 2.5rem;
 }
 
-.footer-text {
-  font-size: 0.875rem;
-}
-
-.footer-subtitle {
-  font-weight: 700;
-  font-size: 0.875rem;
-  margin-top: 0.5rem;
-}
-
-.footer-categories {
-  font-size: 0.75rem;
-}
-
-.footer-contact {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #8b0000;
-  height: 120px;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-right: 0.5rem;
-}
-
-.phone-icon,
-.facebook-icon,
-.globe-icon {
-  color: #fff;
-}
-
-.contact-info {
-  color: #fff;
+.red-line {
+  border-top: 2px solid red;
+  margin-top: 1rem;
 }

@@ -60,11 +60,14 @@ export default function Component() {
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
           POWER FOR THE NATION.
         </p>
-
         <img alt="Valves" className="product-image" src="./assets/3.png" />
-        {/* Other product images */}
+        <p className="centered-text">
+          Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
+          Solar Systems - Motors
+        </p>
+        <div className="red-line"></div>
       </section>
-      <Footer /> {/* Render Footer component */}
+      <Footer />
     </div>
   );
 }
