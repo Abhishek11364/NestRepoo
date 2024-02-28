@@ -45,6 +45,12 @@ export default function Component() {
               className="second-column-image"
               src="./assets/2.png"
             />
+            <p>
+              Government of India has awarded the "National Energy Conservation
+              Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I.
+              Group received the award from Smt. Sumitra Mahajan, Speaker of Lok
+              Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.
+            </p>
           </div>
         </div>
       </section>
@@ -54,10 +60,9 @@ export default function Component() {
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
           POWER FOR THE NATION.
         </p>
-        <div className="product-images">
-          <img alt="Valves" className="product-image" src="./assets/3.png" />
-          {/* Other product images */}
-        </div>
+
+        <img alt="Valves" className="product-image" src="./assets/3.png" />
+        {/* Other product images */}
       </section>
       <Footer /> {/* Render Footer component */}
     </div>

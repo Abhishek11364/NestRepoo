@@ -50,10 +50,14 @@
 }
 
 .award-image {
-  height: 20rem;
+  height: 40rem;
+  width: 550px;
+  margin-right: 20px; /* Adjust the margin as needed */
 }
+
 .second-column-image {
-  height: 12rem;
+  height: 25rem;
+  width: 700px;
 }
 
 .saving-text {
@@ -61,10 +65,7 @@
 }
 
 .product-images {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
+  
 }
 
 .product-image {
